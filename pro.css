@@ -1,0 +1,104 @@
+body{
+    background-image: url(fire.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fcfcfc;
+    
+}
+header{
+    display:flex;
+    background-color: rgb(240, 229, 229);
+    height: 125px;
+    margin: 30px;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+nav ul li a{
+    display:inline-block;
+    padding:30px;
+    color:aliceblue;
+    text-decoration:none ;
+    font-size: large;
+    border:2px solid rgb(241, 241, 150);
+    border-radius: 20%;
+    background-color: rgb(240, 139, 16);
+}
+nav{
+    margin-left: 100px;
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about{
+    text-align: center;
+}
+.grid1{
+    display:grid;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#menu{
+    text-align: center;
+}
+.grid2{
+    display:grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#products{
+    text-align: center;
+}
+#move{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#move .slide{
+    display: inline-block;
+}
+.ROW{
+    
+    display: flex;
+    padding: 20px;
+}
+form{
+    background-color: rgb(223, 174, 109);
+    margin-left:"100px";
+    padding: 10px;
+    border: 2px solid black;
+    border-radius:10% ;
+    height: 100px;
+    width: 800px;
+}
+.inputbox{
+    color: aliceblue;
+    
+}
+.grid3{
+    display:grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:  transparent;
+    border: #fcfcfc;
+}
+#reviews{
+    text-align: center;
+    
+}
+#contact{
+    text-align: center;
+}
+#inputbox{
+    text-align: end;
+}
